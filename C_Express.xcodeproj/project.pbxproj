@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C243DE96266B51360072B499 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C243DE95266B51360072B499 /* main.c */; };
+		C2962E0B266B55E500E5D762 /* chapter10_02.c in Sources */ = {isa = PBXBuildFile; fileRef = C2962E0A266B55E500E5D762 /* chapter10_02.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		C243DE92266B51360072B499 /* C_Express */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Express; sourceTree = BUILT_PRODUCTS_DIR; };
 		C243DE95266B51360072B499 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C2962E0A266B55E500E5D762 /* chapter10_02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chapter10_02.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				C243DE95266B51360072B499 /* main.c */,
+				C2962E0A266B55E500E5D762 /* chapter10_02.c */,
 			);
 			path = C_Express;
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C243DE96266B51360072B499 /* main.c in Sources */,
+				C2962E0B266B55E500E5D762 /* chapter10_02.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +182,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -232,6 +238,10 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = macosx;
 			};
 			name = Release;
