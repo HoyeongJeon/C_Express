@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2566839266D0F0D002455D8 /* chapter10_11_a.c in Sources */ = {isa = PBXBuildFile; fileRef = C2566838266D0F0D002455D8 /* chapter10_11_a.c */; };
+		C256683C266D11C2002455D8 /* chapter10_12_b.c in Sources */ = {isa = PBXBuildFile; fileRef = C256683A266D1006002455D8 /* chapter10_12_b.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,7 +32,8 @@
 		C23F2759266B609A002D191A /* chapter10_04.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chapter10_04.c; sourceTree = "<group>"; };
 		C243DE92266B51360072B499 /* C_Express */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Express; sourceTree = BUILT_PRODUCTS_DIR; };
 		C243DE95266B51360072B499 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		C2566838266D0F0D002455D8 /* chapter10_11_a.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chapter10_11_a.c; sourceTree = "<group>"; };
+		C2566838266D0F0D002455D8 /* chapter10_12_a.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chapter10_12_a.c; sourceTree = "<group>"; };
+		C256683A266D1006002455D8 /* chapter10_12_b.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chapter10_12_b.c; sourceTree = "<group>"; };
 		C2820321266CC45F00E44978 /* chapter10_10.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chapter10_10.c; sourceTree = "<group>"; };
 		C2820323266D0A0D00E44978 /* chapter10_11.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chapter10_11.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +78,8 @@
 				C20BD662266CBA9000AA2131 /* chapter10_09.c */,
 				C2820321266CC45F00E44978 /* chapter10_10.c */,
 				C2820323266D0A0D00E44978 /* chapter10_11.c */,
-				C2566838266D0F0D002455D8 /* chapter10_11_a.c */,
+				C2566838266D0F0D002455D8 /* chapter10_12_a.c */,
+				C256683A266D1006002455D8 /* chapter10_12_b.c */,
 			);
 			path = C_Express;
 			sourceTree = "<group>";
@@ -138,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2566839266D0F0D002455D8 /* chapter10_11_a.c in Sources */,
+				C256683C266D11C2002455D8 /* chapter10_12_b.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
